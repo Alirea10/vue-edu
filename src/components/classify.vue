@@ -11,10 +11,10 @@
         <span
             v-for="data in data1"
             :key="data.id"
-            :class="{ 'filter__option--active': school1 === data.id }"
+            :class="{ 'filter__option--active': school1 === data.school1 }"
             class="filter__option"
-            @click="selectSchool(data.id)">
-          {{ data.school }}
+            @click="selectSchool(data.school1)">
+          {{ data.school1 }}
         </span>
       </div>
     </div>
@@ -25,11 +25,11 @@
       <div class="filter__options">
         <span
             v-for="data in data2"
-            :key="data.subId"
-            v-show="school1 === data.id"
-            :class="{ 'filter__option--active': school2 === data.subId }"
+            :key="data.id"
+            v-show="school1 === 'all' || school1 === data.id"
+            :class="{ 'filter__option--active': school2 === data.school2 }"
             class="filter__option"
-            @click="selectSchool2(data.subId)">
+            @click="selectSchool2(data.school2)">
           {{ data.school2 }}
         </span>
       </div>
@@ -42,10 +42,10 @@
         <span
             v-for="data in data3"
             :key="data.id"
-            v-show="school2 === data.id"
-            :class="{ 'filter__option--active': school3 === data.id }"
+            v-show="school2 === 'all' || school2 === data.id"
+            :class="{ 'filter__option--active': school3 === data.school3 }"
             class="filter__option"
-            @click="selectSchool3(data.id)">
+            @click="selectSchool3(data.school3)">
           {{ data.school3 }}
         </span>
       </div>
@@ -76,48 +76,51 @@ const school2: Ref<number | 'all'> = ref('all')
 const school3: Ref<number | 'all'> = ref('all')
 
 const data1: Ref<MainData[]> = ref([
-  {id: 1, school: '教师教育学院'},
-  {id: 2, school: '乡村振兴学院'},
-  {id: 3, school: '职业技术学院'},
-  {id: 4, school: '智能产业学院'},
+  {id: 1, school1: '教师教育学院'},
+  {id: 2, school1: '乡村振兴学院'},
+  {id: 3, school1: '职业技术学院'},
+  {id: 4, school1: '智能产业学院'},
 ])
 
 const data2: Ref<SubData[]> = ref([
   // 教师教育学院的二级分类
-  {id: 1, subId: 101, school2: '一年级数学'},
-  {id: 1, subId: 102, school2: '二年级数学'},
-  {id: 1, subId: 103, school2: '三年级数学'},
-  {id: 1, subId: 104, school2: '四年级数学'},
-  {id: 1, subId: 105, school2: '五年级数学'},
-  {id: 1, subId: 106, school2: '六年级数学'},
+  {id: '教师教育学院', school2: '一年级数学'},
+  {id: '教师教育学院', school2: '二年级数学'},
+  {id: '教师教育学院', school2: '三年级数学'},
+  {id: '教师教育学院', school2: '四年级数学'},
+  {id: '教师教育学院', school2: '五年级数学'},
+  {id: '教师教育学院', school2: '六年级数学'},
   // 乡村振兴学院的二级分类
-  {id: 2, subId: 201, school2: '农业技术'},
-  {id: 2, subId: 202, school2: '乡村管理'},
-  {id: 2, subId: 203, school2: '生态农业'},
+  {id: '乡村振兴学院', school2: '农业技术'},
+  {id: '乡村振兴学院', school2: '乡村管理'},
+  {id: '乡村振兴学院', school2: '生态农业'},
   // 职业技术学院的二级分类
-  {id: 3, subId: 301, school2: '电子工程'},
-  {id: 3, subId: 302, school2: '机械制造'},
-  {id: 3, subId: 303, school2: '软件开发'},
+  {id: '职业技术学院', school2: '电子工程'},
+  {id: '职业技术学院', school2: '机械制造'},
+  {id: '职业技术学院', school2: '软件开发'},
+  // 智能产业学院的二级分类
+  {id: '智能产业学院', school2: '人工智能'},
+  {id: '智能产业学院', school2: '大数据'},
 ])
 
 const data3: Ref<ThirdData[]> = ref([
   // 一年级数学的三级分类
-  {id: 101, school3: '加法'},
-  {id: 101, school3: '减法'},
-  {id: 101, school3: '乘法'},
+  {id: '一年级数学', school3: '加法'},
+  {id: '一年级数学', school3: '减法'},
+  {id: '一年级数学', school3: '乘法'},
   // 二年级数学的三级分类
-  {id: 102, school3: '分数'},
-  {id: 102, school3: '小数'},
-  {id: 102, school3: '比例'},
+  {id: '二年级数学', school3: '分数'},
+  {id: '二年级数学', school3: '小数'},
+  {id: '二年级数学', school3: '比例'},
   // 三年级数学的三级分类
-  {id: 103, school3: '几何'},
-  {id: 103, school3: '代数'},
-  {id: 103, school3: '统计'},
-  // 其他二级分类的三级分类
-  {id: 201, school3: '种植技术'},
-  {id: 201, school3: '农业机械'},
-  {id: 301, school3: '电路设计'},
-  {id: 301, school3: '控制系统'},
+  {id: '三年级数学', school3: '几何'},
+  {id: '三年级数学', school3: '代数'},
+  {id: '三年级数学', school3: '统计'},
+  // 其他
+  {id: '农业技术', school3: '种植技术'},
+  {id: '农业技术', school3: '农业机械'},
+  {id: '电子工程', school3: '电路设计'},
+  {id: '电子工程', school3: '控制系统'},
 ])
 
 function selectSchool(school: number) {
