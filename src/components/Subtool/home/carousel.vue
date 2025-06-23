@@ -1,0 +1,78 @@
+<script setup>
+
+import downCard from "@/components/Subtool/home/downCard.vue";
+import LeftCard from "@/components/Subtool/home/leftCard.vue";
+</script>
+
+<template>
+  <div class="carousel">
+    <div class="carousel__top">
+      <div class="carousel__left">
+        <LeftCard title="教师教育学院" :items="['推荐课程','研修社区','资源推荐']"></LeftCard>
+        <LeftCard title="教师教育学院" :items="['推荐课程','研修社区','资源推荐']"></LeftCard>
+        <LeftCard title="教师教育学院" :items="['推荐课程','研修社区','资源推荐']"></LeftCard>
+        <LeftCard title="教师教育学院" :items="['推荐课程','研修社区','资源推荐']"></LeftCard>
+      </div>
+      <div class="carousel__right">
+        <n-carousel autoplay show-arrow>
+          <n-carousel-item>
+            <img src="/assets/images/img.jpg" alt="Image 1"/>
+          </n-carousel-item>
+          <n-carousel-item>
+            <img src="/assets/images/img.jpg" alt="Image 2"/>
+          </n-carousel-item>
+          <n-carousel-item>
+            <img src="/assets/images/img.jpg" alt="Image 3"/>
+          </n-carousel-item>
+        </n-carousel>
+      </div>
+    </div>
+    <div class="carousel__down">
+      <downCard></downCard>
+      <downCard></downCard>
+      <downCard></downCard>
+      <downCard></downCard>
+    </div>
+  </div>
+</template>
+
+<style scoped lang="scss">
+.carousel {
+  width: 70%;
+  height: 60vh;
+  margin: auto;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    height: 85%;
+  }
+
+  &__left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__down {
+    width: 100%;
+    height: 15%;
+    background-color: #1890ff;
+    display: flex;
+    flex-direction: row;
+  }
+}
+</style>
