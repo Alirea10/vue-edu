@@ -1,6 +1,6 @@
 <script setup>
 
-import Card from "@/components/Subtool/card.vue";
+import Card from "@/components/Subtool/course/card.vue";
 </script>
 
 <template>
