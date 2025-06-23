@@ -10,8 +10,13 @@ const avatar = "/assets/images/img.jpg"
       <div class="navbar__logo">
         <!-- logo图标占位 -->
       </div>
-      <button class="navbar__btn">首页</button>
-      <button class="navbar__btn">课程中心</button>
+      <router-link to="/">
+        <button class="navbar__btn">首页</button>
+      </router-link>
+      <router-link to="/course">
+        <button class="navbar__btn">课程中心</button>
+      </router-link>
+
       <button class="navbar__btn">我的班级</button>
     </div>
     <div class="navbar__right">
