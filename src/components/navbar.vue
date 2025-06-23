@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import router from "@/router/index.js";
 const username = ref('铃兰')
 const avatar = "/assets/images/img.jpg"
 </script>
@@ -21,8 +22,11 @@ const avatar = "/assets/images/img.jpg"
     </div>
     <div class="navbar__right">
       <input class="navbar__search" type="text" placeholder="搜索..." />
-      <img class="navbar__avatar" :src=avatar alt="头像" />
-      <span class="navbar__username">{{ username }}</span>
+      <div @click="router.push('user')">
+<!--        TODO 这里需要修改div引起的样式冲突-->
+        <img class="navbar__avatar" :src=avatar alt="头像" />
+        <span class="navbar__username">{{ username }}</span>
+      </div>
     </div>
   </nav>
 </template>
