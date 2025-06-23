@@ -1,4 +1,5 @@
 <template>
+  debug:
   {{ school1 }}
   {{ school2 }}
   {{ school3 }}
