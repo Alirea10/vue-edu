@@ -1,8 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-import avatarImg from '@/assets/images/img.jpg'
 const username = ref('铃兰')
-const avatar = ref(avatarImg)
+const avatar = "/assets/images/img.jpg"
 </script>
 
 <template>
