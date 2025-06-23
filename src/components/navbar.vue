@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import avatarImg from '@/assets/images/img.png'
+import avatarImg from '@/assets/images/img.jpg'
 const username = ref('铃兰')
 const avatar = ref(avatarImg)
 </script>
