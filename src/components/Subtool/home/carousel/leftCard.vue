@@ -36,6 +36,7 @@ const props = defineProps({
     display: inline-block;
     margin-right: 8px;
     margin-bottom: 4px;
+    cursor: pointer;
   }
 }
 .title{
