@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import report from "@/components/Subtool/user/report.vue"
+import {File} from "@vicons/tabler"
 
 const avatar = "/assets/images/img.jpg"
 
@@ -15,10 +17,11 @@ function addColor(id) {
 
 //导航栏列表
 const data_list = ref([
-  {id:1,icon_ref:'图标',text:'学习内容',isAddColor:false},
-  {id:2,icon_ref:'图标',text:'学习内容',isAddColor:false},
-  {id:3,icon_ref:'图标',text:'学习内容',isAddColor:false},
-  {id:4,icon_ref:'图标',text:'学习内容',isAddColor:false},
+  {id:1,text:'学习内容',isAddColor:false,icon:File},
+  {id:2,text:'学习内容',isAddColor:false,icon:File},
+  {id:3,text:'学习内容',isAddColor:false,icon:File},
+  {id:4,text:'学习内容',isAddColor:false,icon:File},
+  {id:5,text:'学习内容',isAddColor:false,icon:File},
 ])
 </script>
 
@@ -59,13 +62,16 @@ const data_list = ref([
       <div class="list">
         <!--    鼠标点击后 颜色持续保留    -->
         <div :class="{item:true,add_color:index.isAddColor}" @click="addColor(index.id)" v-for="index in data_list" :key="index.id">
-          <div class="icon">图标</div>
+          <div class="icon">
+            <n-icon :component="index.icon" size="20"/>
+          </div>
           <div class="text">学习内容</div>
         </div>
       </div>
     </div>
+    <!--  详细内容  -->
     <div class="content">
-
+      <report></report>
     </div>
   </div>
 </template>
@@ -138,6 +144,10 @@ const data_list = ref([
 }
 .nav .list .add_color{
   color: blue;
+}
+.content{
+  width: 60%;
+  padding-left: 20%;
 }
 
 </style>
