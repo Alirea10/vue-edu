@@ -53,88 +53,122 @@
   </div>
 </template>
 <script setup lang="ts">
-import {ref, type Ref} from 'vue'
+import {onMounted, ref, type Ref} from 'vue'
 
-interface MainData {
-  id: number
-  school: string
-}
+const school1: Ref<string | 'all'> = ref('all')
+const school2: Ref<string | 'all'> = ref('all')
+const school3: Ref<string | 'all'> = ref('all')
 
-interface SubData {
-  id: number  // 关联到一级分类的id
-  subId: number  // 二级分类自己的唯一ID
-  school2: string
-}
+const data1 = ref<{ id: string; school1: string }[]>([])
+const data2 = ref<{ id: string; school2: string }[]>([])
+const data3 = ref<{ id: string; school3: string }[]>([])
 
-interface ThirdData {
-  id: number  // 关联到二级分类的subId
-  school3: string
-}
+onMounted(async () => {
+  try {
+    const res1 = await fetch('/assets/data/data1.json')
+    data1.value = await res1.json()
 
-const school1: Ref<number | 'all'> = ref('all')
-const school2: Ref<number | 'all'> = ref('all')
-const school3: Ref<number | 'all'> = ref('all')
+    const res2 = await fetch('/assets/data/data2.json')
+    data2.value = await res2.json()
 
-const data1: Ref<MainData[]> = ref([
-  {id: 1, school1: '教师教育学院'},
-  {id: 2, school1: '乡村振兴学院'},
-  {id: 3, school1: '职业技术学院'},
-  {id: 4, school1: '智能产业学院'},
-])
+    const res3 = await fetch('/assets/data/data3.json')
+    data3.value = await res3.json()
+  } catch (error) {
+    console.error("未能获取学校列表", error);
+  }
+})
+// const data1: Ref<MainData[]> = ref([
+//   {id: 1, school1: '教师教育学院'},
+//   {id: 2, school1: '乡村振兴学院'},
+//   {id: 3, school1: '职业技术学院'},
+//   {id: 4, school1: '智能产业学院'},
+// ])
+//
+// const data2: Ref<SubData[]> = ref([
+//   // 教师教育学院的二级分类
+//   {id: '教师教育学院', school2: '一年级数学'},
+//   {id: '教师教育学院', school2: '二年级数学'},
+//   {id: '教师教育学院', school2: '三年级数学'},
+//   {id: '教师教育学院', school2: '四年级数学'},
+//   {id: '教师教育学院', school2: '五年级数学'},
+//   {id: '教师教育学院', school2: '六年级数学'},
+//   // 乡村振兴学院的二级分类
+//   {id: '乡村振兴学院', school2: '农业技术'},
+//   {id: '乡村振兴学院', school2: '乡村管理'},
+//   {id: '乡村振兴学院', school2: '生态农业'},
+//   // 职业技术学院的二级分类
+//   {id: '职业技术学院', school2: '电子工程'},
+//   {id: '职业技术学院', school2: '机械制造'},
+//   {id: '职业技术学院', school2: '软件开发'},
+//   // 智能产业学院的二级分类
+//   {id: '智能产业学院', school2: '人工智能'},
+//   {id: '智能产业学院', school2: '大数据'},
+// ])
+//
+// const data3: Ref<ThirdData[]> = ref([
+//   // 一年级数学的三级分类
+//   {id: '一年级数学', school3: '加法'},
+//   {id: '一年级数学', school3: '减法'},
+//   {id: '一年级数学', school3: '乘法'},
+//   // 二年级数学的三级分类
+//   {id: '二年级数学', school3: '分数'},
+//   {id: '二年级数学', school3: '小数'},
+//   {id: '二年级数学', school3: '比例'},
+//   // 三年级数学的三级分类
+//   {id: '三年级数学', school3: '几何'},
+//   {id: '三年级数学', school3: '代数'},
+//   {id: '三年级数学', school3: '统计'},
+//   // 四年级数学的三级分类
+//   {id: '四年级数学', school3: '空间'},
+//   {id: '四年级数学', school3: '时间'},
+//   {id: '四年级数学', school3: '测量'},
+//   // 五年级数学的三级分类
+//   {id: '五年级数学', school3: '概率'},
+//   {id: '五年级数学', school3: '数列'},
+//   {id: '五年级数学', school3: '方程'},
+//   // 六年级数学的三级分类
+//   {id: '六年级数学', school3: '函数'},
+//   {id: '六年级数学', school3: '图形'},
+//   {id: '六年级数学', school3: '应用题'},
+//   // 农业技术
+//   {id: '农业技术', school3: '种植技术'},
+//   {id: '农业技术', school3: '农业机械'},
+//   // 乡村管理
+//   {id: '乡村管理', school3: '政策法规'},
+//   {id: '乡村管理', school3: '项目管理'},
+//   // 生态农业
+//   {id: '生态农业', school3: '有机种植'},
+//   {id: '生态农业', school3: '生态保护'},
+//   // 电子工程
+//   {id: '电子工程', school3: '电路设计'},
+//   {id: '电子工程', school3: '控制系统'},
+//   // 机械制造
+//   {id: '机械制造', school3: '数控技术'},
+//   {id: '机械制造', school3: '机械制图'},
+//   // 软件开发
+//   {id: '软件开发', school3: '前端开发'},
+//   {id: '软件开发', school3: '后端开发'},
+//   // 人工智能
+//   {id: '人工智能', school3: '机器学习'},
+//   {id: '人工智能', school3: '深度学习'},
+//   // 大数据
+//   {id: '大数据', school3: '数据分析'},
+//   {id: '大数据', school3: '数据挖掘'},
+// ])
 
-const data2: Ref<SubData[]> = ref([
-  // 教师教育学院的二级分类
-  {id: '教师教育学院', school2: '一年级数学'},
-  {id: '教师教育学院', school2: '二年级数学'},
-  {id: '教师教育学院', school2: '三年级数学'},
-  {id: '教师教育学院', school2: '四年级数学'},
-  {id: '教师教育学院', school2: '五年级数学'},
-  {id: '教师教育学院', school2: '六年级数学'},
-  // 乡村振兴学院的二级分类
-  {id: '乡村振兴学院', school2: '农业技术'},
-  {id: '乡村振兴学院', school2: '乡村管理'},
-  {id: '乡村振兴学院', school2: '生态农业'},
-  // 职业技术学院的二级分类
-  {id: '职业技术学院', school2: '电子工程'},
-  {id: '职业技术学院', school2: '机械制造'},
-  {id: '职业技术学院', school2: '软件开发'},
-  // 智能产业学院的二级分类
-  {id: '智能产业学院', school2: '人工智能'},
-  {id: '智能产业学院', school2: '大数据'},
-])
 
-const data3: Ref<ThirdData[]> = ref([
-  // 一年级数学的三级分类
-  {id: '一年级数学', school3: '加法'},
-  {id: '一年级数学', school3: '减法'},
-  {id: '一年级数学', school3: '乘法'},
-  // 二年级数学的三级分类
-  {id: '二年级数学', school3: '分数'},
-  {id: '二年级数学', school3: '小数'},
-  {id: '二年级数学', school3: '比例'},
-  // 三年级数学的三级分类
-  {id: '三年级数学', school3: '几何'},
-  {id: '三年级数学', school3: '代数'},
-  {id: '三年级数学', school3: '统计'},
-  // 其他
-  {id: '农业技术', school3: '种植技术'},
-  {id: '农业技术', school3: '农业机械'},
-  {id: '电子工程', school3: '电路设计'},
-  {id: '电子工程', school3: '控制系统'},
-])
-
-function selectSchool(school: number) {
+function selectSchool(school: string) {
   school1.value = school
   school2.value = 'all'
   school3.value = 'all'
 }
 
-function selectSchool2(school: number) {
+function selectSchool2(school: string) {
   school2.value = school
   school3.value = 'all'
 }
 
-function selectSchool3(school: number) {
+function selectSchool3(school: string) {
   school3.value = school
 }
 </script>
