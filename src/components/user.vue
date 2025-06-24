@@ -52,7 +52,6 @@ const avatar = "/assets/images/img.jpg"
   justify-content: flex-start;
   align-items: center;
   padding-left: 20%;
-  width: 300px;
   height: 100%;
 }
 .header .header_left .avatar img{
@@ -63,6 +62,7 @@ const avatar = "/assets/images/img.jpg"
   object-fit: cover;
 }
 .header .header_left .name{
+  width: 200px;
   padding-left: 20px;
   color: white;
 }
@@ -75,8 +75,12 @@ const avatar = "/assets/images/img.jpg"
   align-items: center;
   color: white;
   padding-right: 20%;
-  width: 400px;
   height: 100%;
+  width: 100%;
+}
+.header .header_right div{
+  width: 100px;
+  text-align: center;
 }
 .header .header_right div span{
   font-size: 30px;
