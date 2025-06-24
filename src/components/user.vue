@@ -1,6 +1,25 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+
 const avatar = "/assets/images/img.jpg"
+
+function addColor(id) {
+  data_list.value.forEach((item) => {
+    if(item.id == id){
+      item.isAddColor = true
+    }else{
+      item.isAddColor = false
+    }
+  })
+}
+
+//导航栏列表
+const data_list = ref([
+  {id:1,icon_ref:'图标',text:'学习内容',isAddColor:false},
+  {id:2,icon_ref:'图标',text:'学习内容',isAddColor:false},
+  {id:3,icon_ref:'图标',text:'学习内容',isAddColor:false},
+  {id:4,icon_ref:'图标',text:'学习内容',isAddColor:false},
+])
 </script>
 
 <template>
@@ -34,6 +53,19 @@ const avatar = "/assets/images/img.jpg"
           <p>评论/回复</p>
         </div>
       </div>
+    </div>
+    <!--  导航栏  -->
+    <div class="nav">
+      <div class="list">
+        <!--    鼠标点击后 颜色持续保留    -->
+        <div :class="{item:true,add_color:index.isAddColor}" @click="addColor(index.id)" v-for="index in data_list" :key="index.id">
+          <div class="icon">图标</div>
+          <div class="text">学习内容</div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+
     </div>
   </div>
 </template>
@@ -84,6 +116,28 @@ const avatar = "/assets/images/img.jpg"
 }
 .header .header_right div span{
   font-size: 30px;
+}
+.nav{
+  width: 100%;
+  height: 40px;
+  background-color: #666666;
+}
+.nav .list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height:100%;
+  padding-left: 20%;
+}
+.nav .list .item{
+  display: flex;
+}
+.nav .list .item:hover{
+  color: red;
+}
+.nav .list .add_color{
+  color: blue;
 }
 
 </style>
