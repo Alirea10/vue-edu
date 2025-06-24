@@ -177,10 +177,10 @@ function selectSchool3(school: string) {
 .filter {
   width: 80%;
   font-family: Arial, sans-serif;
-  padding: 15px;
+  //padding: 15px;
+  border: 15px solid #f5f5f5;
   background-color: #f5f5f5;
   border-radius: 5px;
-
   margin: 10px auto 0 auto;
 
   &__section {

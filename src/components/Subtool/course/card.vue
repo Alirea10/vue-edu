@@ -83,8 +83,8 @@ const handleMouseLeave = () => {
 
 <style scoped lang="scss">
 .card {
-  width: 20%;
-  max-width: 350px;
+  width: 18%; /* 从20%修改为18%，以便一行容纳5个卡片 */
+  max-width: 20%;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -94,6 +94,7 @@ const handleMouseLeave = () => {
   transition: all 0.3s ease;
   margin-bottom: 20px;
   position: relative; /* 添加相对定位，作为绝对定位标题的参考 */
+  gap: 1%; // 添加固定间距
 
   &--border {
     border: 1px solid #eaeaea;
