@@ -1,7 +1,7 @@
 <script setup>
 
-import downCard from "@/components/Subtool/home/downCard.vue";
-import LeftCard from "@/components/Subtool/home/leftCard.vue";
+import downCard from "@/components/Subtool/home/carousel/downCard.vue";
+import LeftCard from "@/components/Subtool/home/carousel/leftCard.vue";
 </script>
 
 <template>
@@ -9,9 +9,9 @@ import LeftCard from "@/components/Subtool/home/leftCard.vue";
     <div class="carousel__top">
       <div class="carousel__left">
         <LeftCard title="教师教育学院" :items="['推荐课程','研修社区','资源推荐']"></LeftCard>
-        <LeftCard title="教师教育学院" :items="['推荐课程','研修社区','资源推荐']"></LeftCard>
-        <LeftCard title="教师教育学院" :items="['推荐课程','研修社区','资源推荐']"></LeftCard>
-        <LeftCard title="教师教育学院" :items="['推荐课程','研修社区','资源推荐']"></LeftCard>
+        <LeftCard title="乡村振兴学院" :items="['推荐课程','荔枝种植','花卉园艺']"></LeftCard>
+        <LeftCard title="智能产业学院" :items="['推荐课程','java','C++','Python']"></LeftCard>
+        <LeftCard title="职业技能学院" :items="['推荐课程','电子商务','农业技术']"></LeftCard>
       </div>
       <div class="carousel__right">
         <n-carousel autoplay show-arrow>
@@ -38,7 +38,7 @@ import LeftCard from "@/components/Subtool/home/leftCard.vue";
 
 <style scoped lang="scss">
 .carousel {
-  width: 70%;
+  width: 80%;
   height: 60vh;
   margin: auto;
 
