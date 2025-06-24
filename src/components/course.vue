@@ -1,7 +1,7 @@
 <script setup>
 
 import Classify from "@/components/Subtool/classify.vue";
-import Cardlist from "@/components/Subtool/cardlist.vue";
+import Cardlist from "@/components/Subtool/course/cardList.vue";
 </script>
 
 <template>
