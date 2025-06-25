@@ -1,7 +1,22 @@
-<script setup>
-
+<script setup lang="ts">
 import downCard from "@/components/Subtool/home/carousel/downCard.vue";
 import LeftCard from "@/components/Subtool/home/carousel/leftCard.vue";
+import {onMounted, ref} from "vue";
+
+const colleges = ref<any[]>([])
+
+onMounted(async () => {
+  // 发送请求获取API数据
+  fetch('https://www.tukedu.com/api/indexs')
+      .then(res => res.json())
+      .then(json => {
+        colleges.value = json.data.colleges || [];
+      })
+      .catch(err => {
+        console.error('API请求失败', err);
+      });
+})
+// 接个鸡毛不接了东西api都不全
 </script>
 
 <template>
@@ -70,7 +85,6 @@ import LeftCard from "@/components/Subtool/home/carousel/leftCard.vue";
   &__down {
     width: 100%;
     height: 15%;
-    background-color: #1890ff;
     display: flex;
     flex-direction: row;
   }
