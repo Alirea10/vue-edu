@@ -3,14 +3,15 @@
 import {onMounted, ref} from "vue";
 import Card from "@/components/Subtool/course/card.vue";
 
-const data1 = ref<{ id: string; school1: string }[]>([])
+const data1 = ref<any[]>([])
 
 onMounted(async () => {
   try {
-    const school1 = await fetch('/assets/data/data1.json');
-    data1.value = await school1.json()
+    const res = await fetch('/assets/data/api.json');
+    const json = await res.json();
+    data1.value = json.data.hotCourses || [];
   } catch (error) {
-    console.error("未能获取学校列表", error);
+    console.error("未能获取热门课程", error);
   }
 })
 </script>
@@ -19,12 +20,17 @@ onMounted(async () => {
   <n-flex vertical class="hot">
     <div class="hot__header">
       <span class="hot__title">热门课程</span>
-      <span class="hot__school" v-for="item in data1" :key="item.id">{{ item.school1 }}</span>
     </div>
-
     <div class="hot__list">
-      <card v-for="n in 6" :key="n" tag="铃兰" description="铃兰小姐是我们的光" imageUrl="/assets/images/img.jpg"
-            price="144" showBorder></card>
+      <card
+        v-for="item in data1"
+        :key="item.id"
+        :tag="item.lecturer"
+        :description="item.title"
+        :imageUrl="item.coverImg.startsWith('http') ? item.coverImg : 'https://www.tukedu.com' + item.coverImg"
+        :price="item.price"
+        showBorder
+      />
     </div>
   </n-flex>
 </template>

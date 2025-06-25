@@ -1,0 +1,501 @@
+{
+  "code": "0",
+  "msg": "success",
+  "data": {
+    "banners": [
+      {
+        "id": 9,
+        "url": "/static/2022/11/16/74925b1492884dae948f52836faf19a8.png",
+        "content": "http://t.weimob.com/XNudQ"
+      },
+      {
+        "id": 23,
+        "url": "/static/2022/6/19/a525e46e6c924532b2b46814a6033eb1.png",
+        "content": ""
+      },
+      {
+        "id": 24,
+        "url": "/static/2022/9/22/bb09abb12cfe4e62953fa05e971cad0c.jpg",
+        "content": ""
+      },
+      {
+        "id": 25,
+        "url": "/static/2022/9/22/3cd576d52e6a4b839cc1b59ef3dc1f27.jpg",
+        "content": ""
+      },
+      {
+        "id": 29,
+        "url": "/static/2023/10/9/153ef66a312f425096b656b89ab953c1.png",
+        "content": ""
+      }
+    ],
+    "colleges": [
+      {
+        "id": 45,
+        "name": "教师教育学院",
+        "logo": "/static/2022/7/27/65931a2c16554cfe96be267466f391b1.png",
+        "skills": [
+          {
+            "skillId": 20,
+            "skillName": "学前教育"
+          },
+          {
+            "skillId": 21,
+            "skillName": "示范课例"
+          },
+          {
+            "skillId": 38,
+            "skillName": "初中数学微课堂"
+          },
+          {
+            "skillId": 72,
+            "skillName": "班级管理"
+          },
+          {
+            "skillId": 74,
+            "skillName": "信息技术"
+          },
+          {
+            "skillId": 77,
+            "skillName": "教育科研"
+          },
+          {
+            "skillId": 81,
+            "skillName": "师德师风"
+          },
+          {
+            "skillId": 86,
+            "skillName": "心理健康"
+          },
+          {
+            "skillId": 87,
+            "skillName": "教育管理"
+          },
+          {
+            "skillId": 96,
+            "skillName": "学生评价"
+          },
+          {
+            "skillId": 118,
+            "skillName": "高中"
+          }
+        ],
+        "courses": [
+          {
+            "courseId": 25,
+            "coverImg": "/resource/b8fb9593e44600cf4862b36368bd52f3/img/1599129257214/ec1d440d36d944de960f3882656632c0.jpg",
+            "courseName": "幼儿园家长工作"
+          },
+          {
+            "courseId": 26,
+            "coverImg": "/resource/edebb06cf04f769790a884a26a43feb1/img/1599130229091/d60889a7ebac1898d39a9ff0399016b0.jpg",
+            "courseName": "幼儿情绪情感发展特点及情绪问题应对策略"
+          },
+          {
+            "courseId": 136,
+            "coverImg": "/resource/741f435a13b6ba8f2fbbd9fd8c7202ec/img/1611106596994/c752706b9d5e115dc76bfe84d8f0fa91.png",
+            "courseName": "小学英语阅读教学"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "乡村振兴学院",
+        "logo": "/static/2022/7/27/e16a40163c524f8e91c20502c0ec6b35.png",
+        "skills": [
+          {
+            "skillId": 14,
+            "skillName": "智慧农业"
+          },
+          {
+            "skillId": 15,
+            "skillName": "农产品安全与营销"
+          },
+          {
+            "skillId": 16,
+            "skillName": "小微企业管理"
+          },
+          {
+            "skillId": 17,
+            "skillName": "新型农业经营主体发展"
+          },
+          {
+            "skillId": 18,
+            "skillName": "农业创业"
+          },
+          {
+            "skillId": 19,
+            "skillName": "乡村旅游开发与经营"
+          },
+          {
+            "skillId": 22,
+            "skillName": "农业技术"
+          }
+        ],
+        "courses": [
+          {
+            "courseId": 57,
+            "coverImg": "/resource/c8f49ed337a500c89177583bd14fae8d/img/1599186542440/b5402351fce56c448ad5fe2a8c35848d.png",
+            "courseName": "大棚草莓优质高效栽培"
+          },
+          {
+            "courseId": 59,
+            "coverImg": "/resource/159e0657197cc6076117a089188629e8/img/1599186788187/cbf9996f3f14d6bbb932e0741abdbb7f.png",
+            "courseName": "北方露地草莓高效栽培技术"
+          },
+          {
+            "courseId": 60,
+            "coverImg": "/resource/1e2a00f8d552397fbd17816b133956c8/img/1599186962718/398b240e00ddf73a9a48a60b639c000e.png",
+            "courseName": "草莓新品种介绍"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "智能产业学院",
+        "logo": "/static/2022/7/27/aa85f936dfd142daa6c35608e6135436.png",
+        "skills": [
+          {
+            "skillId": 7,
+            "skillName": "软件开发"
+          },
+          {
+            "skillId": 8,
+            "skillName": "人工智能"
+          }
+        ],
+        "courses": [
+          {
+            "courseId": 10,
+            "coverImg": "/resource/5b4c93584145174568d5aaea97efe4a6/img/1599119567771/b573e0b180bf299dfcababb1c63df529.png",
+            "courseName": "C/C++与设计模式基础（第一季）"
+          },
+          {
+            "courseId": 13,
+            "coverImg": "/resource/12c632e18ac780eaaa64b1f4b8371863/img/1599122055582/5fb4d8a5e5b7de187251b47086b575cb.png",
+            "courseName": "JAVA基础教程（第一季）"
+          },
+          {
+            "courseId": 17,
+            "coverImg": "/resource/b049d8b57169723d0b355ababbfedb7b/img/1599124157179/c5b82e9896b0c3b6649d633dbf38a791.png",
+            "courseName": "从零开始学python（一）基础入门"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "职业技能学院",
+        "logo": "/static/2022/7/27/e571e409840e4a59ab1cb5bc2c6116f4.png",
+        "skills": [
+          {
+            "skillId": 4,
+            "skillName": "职业技能"
+          },
+          {
+            "skillId": 5,
+            "skillName": "农村电商"
+          },
+          {
+            "skillId": 103,
+            "skillName": "干部培训"
+          }
+        ],
+        "courses": [
+          {
+            "courseId": 35,
+            "coverImg": "/resource/a4c508469b23069b0a30b4e2f88bc675/img/1599184214530/334a0e296d2647d6f7c3e3f62ede5e1a.png",
+            "courseName": "淘宝电商基础入门（一）认识电子商务"
+          },
+          {
+            "courseId": 39,
+            "coverImg": "/resource/e559a041df3f1be8d593f6281d1b4b69/img/1599184904588/86d6af39d6fd96a4d324d068d61d7c73.png",
+            "courseName": "淘宝电商基础入门（二）淘宝、天猫入驻流程"
+          },
+          {
+            "courseId": 41,
+            "coverImg": "/resource/90df5662c7f4bf7829d23eb371cb2871/img/1599185248383/8aa78b32021f40c910ea6a8ce63cc2a0.png",
+            "courseName": "淘宝电商基础入门（三）店铺定位"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "中教商学院",
+        "logo": "/static/2024/6/5/176414b7a5ed4341aadce6ee6f619881.png",
+        "skills": [
+          {
+            "skillId": 120,
+            "skillName": "素养类课程"
+          },
+          {
+            "skillId": 121,
+            "skillName": "管理类课程"
+          },
+          {
+            "skillId": 122,
+            "skillName": "营销类课程"
+          },
+          {
+            "skillId": 123,
+            "skillName": "专业类课程"
+          }
+        ],
+        "courses": []
+      }
+    ],
+    "packages": [
+      {
+        "id": 37,
+        "name": "初中数学微课专题（人教版）",
+        "coverImg": "/resource/1642f7238a9f220116edbd39860cbeac/img/1650687083789/9f310a2fc5c95a04d245d3f25dd2358a.png",
+        "introduce": "",
+        "price": 0,
+        "rates": 0
+      },
+      {
+        "id": 38,
+        "name": "初中数学中考专题",
+        "coverImg": "/resource/658953d4ba21fcf7fa44bd5a7b988b2b/img/1650686961421/9f310a2fc5c95a04d245d3f25dd2358a.png",
+        "introduce": "",
+        "price": 0,
+        "rates": 0
+      },
+      {
+        "id": 39,
+        "name": "幼儿园科学保教名师课堂",
+        "coverImg": "/resource/f07b09a359fdfabcbf7eb0571e8f1416/img/1650687998784/4e21fc295792e2964a908c7938440983.png",
+        "introduce": "",
+        "price": 0,
+        "rates": 0
+      },
+      {
+        "id": 40,
+        "name": "幼儿园心理辅导专题",
+        "coverImg": "/resource/31bcbb2c0ef3cb056dd8a445e46b4093/img/1650692116669/413a41bced88fc677b236541dc6510be.jpg",
+        "introduce": "",
+        "price": 0,
+        "rates": 0
+      }
+    ],
+    "hotCourses": [
+      {
+        "id": 391,
+        "title": "2022年义务教育国家课程数字教材及应用服务项目——南宁市小学英语主题教研活动",
+        "coverImg": "/static/2022/6/2/e56238a4a96e45b0b83c2faa516bd5df.jpg",
+        "lecturer": "途课网课程中心",
+        "studyNum": 1017,
+        "isVip": 0,
+        "price": 0,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 174,
+        "title": "向高手进阶——PPT篇",
+        "coverImg": "/resource/ba228c8666ff8795db23cf9fe0d6610c/img/1616400987440/412310615ba70ac10f90dfb3036e3fb1.png",
+        "lecturer": "小优老师",
+        "studyNum": 720,
+        "isVip": 0,
+        "price": 99,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 270,
+        "title": "广西2021年“国培计划”钦州市统筹教师培训项目精品思政课培育与展示培训",
+        "coverImg": "/resource/1ecd6a299689c08cee6a3a20a625d5cf/img/1636621285273/fbe0d347a5288b1dccf496372ecdd1d2.jpg",
+        "lecturer": "梁上富",
+        "studyNum": 616,
+        "isVip": 0,
+        "price": 0,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 25,
+        "title": "幼儿园家长工作",
+        "coverImg": "/resource/b8fb9593e44600cf4862b36368bd52f3/img/1599129257214/ec1d440d36d944de960f3882656632c0.jpg",
+        "lecturer": "谢宁",
+        "studyNum": 488,
+        "isVip": 0,
+        "price": 199,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 425,
+        "title": "2022良庆区小学语文教师（低段）技能比赛",
+        "coverImg": "/static/2022/6/14/e2ef599505734c55a6a8b5c661c40b36.jpg",
+        "lecturer": "途课网课程中心",
+        "studyNum": 474,
+        "isVip": 0,
+        "price": 0,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      }
+    ],
+    "newCourses": [
+      {
+        "id": 533,
+        "title": "高中地理新课程、新教材实施",
+        "coverImg": "/static/2023/10/9/0f25da9d33824ed48358ab15d1ac3ab1.png",
+        "lecturer": "途课网课程中心",
+        "studyNum": 21,
+        "isVip": 1,
+        "price": 199,
+        "rates": 99,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 539,
+        "title": "公文写作基础",
+        "coverImg": "/static/2024/4/2/25ad9c324bcd406591478e79d8ddff01.jpg",
+        "lecturer": "颜色星",
+        "studyNum": 8,
+        "isVip": 0,
+        "price": 499,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 534,
+        "title": "高中生物新课程、新教材实施",
+        "coverImg": "/static/2023/10/9/426bf867c4584eeeabf017984fc61f8b.png",
+        "lecturer": "途课网课程中心",
+        "studyNum": 8,
+        "isVip": 1,
+        "price": 199,
+        "rates": 99,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 538,
+        "title": "三农短视频营销",
+        "coverImg": "/static/2023/10/23/1ccd27406a1545a3a5a2f25e3fb24905.jpg",
+        "lecturer": "途课网课程中心",
+        "studyNum": 0,
+        "isVip": 0,
+        "price": 99,
+        "rates": 49,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 537,
+        "title": "农产品电商运营基础",
+        "coverImg": "/static/2023/10/23/f7d0f92ea1d540c7ab64d56f2b6eeff2.jpg",
+        "lecturer": "途课网课程中心",
+        "studyNum": 0,
+        "isVip": 0,
+        "price": 99,
+        "rates": 49,
+        "state": null,
+        "skill": null
+      }
+    ],
+    "starCourses": [
+      {
+        "id": 263,
+        "title": "小学数学“解决问题”教学中培养学生“四能”的途径",
+        "coverImg": "/resource/5ad9d7b90a863b257389f5c66160609e/img/1636510831361/b7bfa6be15f400181d4ca44f5e090a63.jpg",
+        "lecturer": "赖雪冰",
+        "studyNum": 88,
+        "isVip": 0,
+        "price": 0,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 219,
+        "title": "小学英语《Do you want some rice?》",
+        "coverImg": "/resource/42de7dd2e4713139cee4998ca6f2fb34/img/1634626992643/5befdfd70b12d47519db7b1559279fb2.jpg",
+        "lecturer": "卢艳珍",
+        "studyNum": 46,
+        "isVip": 0,
+        "price": 0,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 220,
+        "title": "小学计算机《恐龙博物馆》",
+        "coverImg": "/resource/b863fea9b2a96cd6bb43a530f0faff21/img/1634628603935/5ab5951f84af249dc814ddea514ff4af.jpg",
+        "lecturer": "韦德思",
+        "studyNum": 175,
+        "isVip": 0,
+        "price": 0,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 178,
+        "title": "荔枝的品种",
+        "coverImg": "/resource/af03ab0380fa6eff17d47af32a7a5ad1/img/1622796087334/0c98f7cdb1f91dd9e39ecce462bfc1a0.jpg",
+        "lecturer": "李平",
+        "studyNum": 157,
+        "isVip": 0,
+        "price": 39,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      },
+      {
+        "id": 157,
+        "title": "初中数学微课 第二十章 数据的分析",
+        "coverImg": "/resource/49b86aece7ccd8d560287971305cc52f/img/1615966813143/cccb431b1be996ee6ec1e3bb87d12392.png",
+        "lecturer": "南宁市三十七中微课团队",
+        "studyNum": 42,
+        "isVip": 0,
+        "price": 0,
+        "rates": 0,
+        "state": null,
+        "skill": null
+      }
+    ],
+    "newses": [
+      {
+        "id": 32,
+        "title": "《教育部现行有效规章目录》公布！（文内附47项规章原文链接，建议收藏）",
+        "coverImg": "/resource/b46510862e1aeb510fc7ca0149dda9bb/img/1650534932077/3c7b778cba7c39bad5268985daa9010a.jpg",
+        "content": "\u003Cp style=\"text-align: justify;\"\u003E\u003Cspan style=\"text-align: start;\"\u003E近日，教育部发布\u003C/span\u003E\u003Ca href=\"http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A02/202101/t20210104_508701.html\" data-linktype=\"2\" style=\"text-align: start;\"\u003E\u003Cspan\u003E《教育部现行有效规章目录》\u003C/span\u003E\u003C/a\u003E\u003Cspan style=\"text-align: start;\"\u003E的公告，教育部整理了47项规章的原文链接，点击规章名称即可查看。一起来看具体目录吧↓↓↓\u003C/span\u003E\u003C/p\u003E\u003Csection style=\"text-align: justify;\"\u003E\u003Cimg src=\"http://test.tukedu.com/resource/13aa5c290c20cc8c6670f2afe514fc4f/img/1609923493273/9e417089508932831e74818f67f029e0.jpg\" alt=\"\"\u003E\u003Cbr\u003E\u003Cspan style=\"text-align: start;\"\u003E\u003C/span\u003E\u003C/section\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cimg src=\"http://test.tukedu.com/resource/1ebc54ef0bd0e00bb5bd79549bca0ee7/img/1609923534716/c9f0f895fb98ab9159f51fd0297e236d.png\" alt=\"\"\u003E\u003C/strong\u003E\u003C/span\u003E\u003Cstrong\u003E教育部现行有效规章目录\u003C/strong\u003E\u003C/p\u003E\u003Csection style=\"text-align: center;\"\u003E\u003Cspan\u003E（截至2\u003C/span\u003E\u003Cspan\u003E020\u003C/span\u003E\u003Cspan\u003E年1\u003C/span\u003E\u003Cspan\u003E2月\u003C/span\u003E\u003Cspan\u003E31日）\u003C/span\u003E\u003C/section\u003E\u003Ctable width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" class=\"layui-table\" style=\"text-align: justify;\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"48\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E序号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"48\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E规章名称\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"48\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E文号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"48\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E发布日期\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"48\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E施行日期\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199009/t19900918_81934.html\" textvalue=\"高等学校校园秩序管理若干规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等学校校园秩序管理若干规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E国家教育委员会令第13号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1990-09-18\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1990-09-18\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199010/t19901031_81932.html\" textvalue=\"普通高等学校教育评估暂行规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E普通高等学校教育评估暂行规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E国家教育委员会令第14号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1990-10-31\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1990-10-31\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E3\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199106/t19910612_81929.html\" textvalue=\"中等专业教育自学考试暂行规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E中等专业教育自学考试暂行规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E国家教育委员会令第16号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1991-06-12\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1991-06-12\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E4\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199206/t19920627_81923.html\" textvalue=\"高等学校实验室工作规程\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等学校实验室工作规程\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E国家教育委员会令第20号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1992-06-27\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1992-06-27\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E5\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199209/t19920902_81921.html\" textvalue=\"中国汉语水平考试（HSK）办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E中国汉语水平考试（HSK）办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E国家教育委员会令第21号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1992-09-02\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1992-09-02\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E6\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199210/t19921026_81919.html\" textvalue=\"高等教育自学考试命题工作规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等教育自学考试命题工作规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E国家教育委员会令第22号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1992-10-26\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1992-10-26\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E7\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199603/t19960309_81895.html\" textvalue=\"小学管理规程\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E小学管理规程\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E国家教育委员会令第26号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1996-03-09\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1996-03-09\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E8\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199803/t19980306_81873.html\" textvalue=\"教育行政处罚暂行实施办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E教育行政处罚暂行实施办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E国家教育委员会令第27号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1998-03-06\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1998-03-06\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"33\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E9\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"33\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/s78/A02/zfs__left/s5911/moe_621/199812/t19981202_182879.html\" textvalue=\"特殊教育学校暂行规程\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E特殊教育学校暂行规程\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"33\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第1号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"33\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1998-12-02\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"33\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1998-12-02\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E10\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199903/t19990315_81869.html\" textvalue=\"中华人民共和国教育部“中国语言文化友谊奖”设置规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E中华人民共和国教育部“中国语言文化友谊奖”设置规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第2号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1999-03-15\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1999-03-15\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E11\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199904/t19990408_81867.html\" textvalue=\"高等学校知识产权保护管理规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等学校知识产权保护管理规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第3号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1999-04-08\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1999-04-08\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"29\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E12\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"29\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/199909/t19990913_180474.html\" textvalue=\"中小学教师继续教育规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E中小学教师继续教育规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"29\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第7号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"29\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1999-09-13\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"29\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1999-09-13\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E13\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201511/t20151119_220018.html\" textvalue=\"中小学校长培训规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E中小学校长培训规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第8号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1999-12-30\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E1999-12-30\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E14\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.gov.cn/bumenfuwu/2012-11/15/content_2600413.htm\" textvalue=\"《教师资格条例》实施办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E《教师资格条例》实施办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第10号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2000-09-23\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2000-09-23\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E15\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/200206/t20020625_81855.html\" textvalue=\"学生伤害事故处理办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E学生伤害事故处理办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第12号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2002-06-25\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2002-09-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E16\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/s78/A17/twys_left/moe_794/moe_795/tnull_8515.html\" textvalue=\"学校艺术教育工作规程\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E学校艺术教育工作规程\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第13号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2002-07-25\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2002-08-25\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E17\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_36/tnull_5321.html\" textvalue=\"普通话水平测试管理规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E普通话水平测试管理规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第16号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2003-05-21\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2003-06-15\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E18\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_1/moe_162/tnull_3529.html\" textvalue=\"国家教育考试违规处理办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E国家教育考试违规处理办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第18号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2004-05-19\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2004-05-19\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E19\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_1/moe_366/tnull_4316.html\" textvalue=\"汉语作为外语教学能力认定办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E汉语作为外语教学能力认定办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第19号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2004-08-23\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2004-10-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E20\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_1/moe_162/tnull_2544.html\" textvalue=\"中华人民共和国中外合作办学条例实施办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E中华人民共和国中外合作办学条例实施办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第20号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2004-06-02\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2004-07-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E21\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/s78/A02/moe_627/201108/t20110816_123326.html\" textvalue=\"实施教育行政许可若干规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E实施教育行政许可若干规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第22号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2005-04-21\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2005-06-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E22\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/200606/t20060630_180470.html\" textvalue=\"中小学幼儿园安全管理办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E中小学幼儿园安全管理办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部、公安部、司法部、建设部、交通部、文化部、卫生部、工商总局、质检总局、新闻出版总署令第23号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2006-06-30\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2006-09-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E23\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/s78/A02/zfs__left/s5911/moe_621/201001/t20100129_170436.html\" textvalue=\"民办高等学校办学管理若干规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E民办高等学校办学管理若干规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第25号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2007-02-03\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2007-02-10\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E24\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/s78/A02/zfs__left/s5911/moe_621/201001/t20100129_170435.html\" textvalue=\"独立学院设置与管理办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E独立学院设置与管理办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第26号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2008-02-22\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2008-04-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E25\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/s78/A02/zfs__left/s5911/moe_621/201001/t20100129_170434.html\" textvalue=\"高等学校档案管理办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等学校档案管理办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部 国家档案局令第27号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2008-08-20\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2008-09-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"67\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E26\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"67\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/s78/A02/zfs__left/s5911/moe_621/201001/t20100129_170433.html\" textvalue=\"高等学校消防安全管理规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等学校消防安全管理规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"67\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部、公安部令第28号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"67\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2009-10-19\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"67\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2010-01-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E27\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s7049/201005/t20100511_170528.html\" textvalue=\"高等学校信息公开办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等学校信息公开办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第29号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2010-04-06\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2010-09-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E28\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201012/t20101213_113065.html\" textvalue=\"教育部关于修改和废止部分规章的决定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E教育部关于修改和废止部分规章的决定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第30号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2010-12-13\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2010-12-13\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E29\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201111/t20111128_170440.html\" textvalue=\"高等学校章程制定暂行办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等学校章程制定暂行办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第31号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2011-11-28\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2012-01-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E30\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201112/t20111208_170439.html\" textvalue=\"学校教职工代表大会规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E学校教职工代表大会规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第32号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2011-12-08\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2012-01-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E31\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201201/t20120105_170438.html\" textvalue=\"教育部关于修改《国家教育考试违规处理办法》的决定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E教育部关于修改《国家教育考试违规处理办法》的决定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第33号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2012-01-05\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2012-04-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E32\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201211/t20121113_170437.html\" textvalue=\"学位论文作假行为处理办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E学位论文作假行为处理办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第34号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2012-11-13\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2013-01-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"31\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E33\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"31\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201401/t20140129_163994.html\" textvalue=\"高等学校学术委员会规程\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等学校学术委员会规程\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"31\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第35号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"31\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2014-01-29\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"31\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2014-03-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E34\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201407/t20140709_171344.html\" textvalue=\"普通高等学校招生违规行为处理暂行办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E普通高等学校招生违规行为处理暂行办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第36号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2014-07-08\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2014-07-08\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E35\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201407/t20140725_172346.html\" textvalue=\"普通高等学校理事会规程（试行）\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E普通高等学校理事会规程（试行）\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第37号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2014-07-16\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2014-09-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"59\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E36\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"59\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201511/t20151126_221285.html\" textvalue=\"教育部关于废止和修改部分规章的决定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E教育部关于废止和修改部分规章的决定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"59\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第38号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"59\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2015-11-10\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"59\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2015-11-10\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"35\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E37\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"35\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201602/t20160229_231184.html\" textvalue=\"幼儿园工作规程\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E幼儿园工作规程\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"35\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第39号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"35\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2016-01-05\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"35\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2016-03-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E38\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201607/t20160718_272156.html\" textvalue=\"高等学校预防与处理学术不端行为办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E高等学校预防与处理学术不端行为办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第40号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2016-06-16\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2016-09-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E39\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201702/t20170216_296385.html\" textvalue=\"普通高等学校学生管理规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E普通高等学校学生管理规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第41号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2017-02-04\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2017-09-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E40\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201705/t20170516_304735.html\" textvalue=\"学校招收和培养国际学生管理办法\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E学校招收和培养国际学生管理办法\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部、外交部、公安部令第42号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2017-03-20\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2017-07-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E41\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201709/t20170929_315781.html\" textvalue=\"普通高等学校辅导员队伍建设规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E普通高等学校辅导员队伍建设规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第43号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2017-09-21\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2017-10-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E42\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201807/t20180713_342990.html\" textvalue=\"教育统计管理规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E教育统计管理规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部第令44号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2018-06-25\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2018-08-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E43\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/201903/t20190311_372925.html\" textvalue=\"学校食品安全与营养健康管理规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E学校食品安全与营养健康管理规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部、国家市场监督管理总局、国家卫生健康委员会令第45号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2019-02-20\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2019-04-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E44\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/202002/t20200207_418877.html\" textvalue=\"新时代高等学校思想政治理论课教师队伍建设规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E新时代高等学校思想政治理论课教师队伍建设规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第46号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2020-01-16\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2020-03-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E45\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/202004/t20200401_437195.html\" textvalue=\"教育系统内部审计工作规定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E教育系统内部审计工作规定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第47号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2020-03-20\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2020-05-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E46\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/202012/t20201223_507183.html\" textvalue=\"教育部关于废止部分规章的决定\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E教育部关于废止部分规章的决定\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第48号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2020-12-02\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2021-01-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width=\"55\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E47\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"199\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Ca target=\"_blank\" href=\"http://www.moe.gov.cn/srcsite/A02/s5911/moe_621/202012/t20201228_507882.html\" textvalue=\"中小学教育惩戒规则（试行）\" tab=\"outerlink\" data-linktype=\"2\"\u003E\u003Cspan\u003E中小学教育惩戒规则（试行）\u003C/span\u003E\u003C/a\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"167\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E教育部令第49号\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2020-12-23\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003Ctd width=\"109\" height=\"26\"\u003E\u003Cp style=\"text-align: center;\"\u003E\u003Cspan\u003E2021-03-01\u003C/span\u003E\u003C/p\u003E\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003Cp style=\"text-align: justify;\"\u003E\u003Cbr\u003E\u003C/p\u003E\u003Chr style=\"text-align: justify;\"\u003E\u003Cp style=\"text-align: justify;\"\u003E\u003Cbr\u003E\u003C/p\u003E\u003Cp style=\"text-align: justify;\"\u003E\u003Cspan\u003E内容来源于教育部官网，\u003C/span\u003E\u003Cspan\u003E如有版权争议，请联系途课网客服。\u003C/span\u003E\u003C/p\u003E\u003Cp style=\"text-align: justify;\"\u003E\u003Cbr\u003E\u003C/p\u003E",
+        "reading": 475,
+        "createTime": "2021-01-06 17:03"
+      },
+      {
+        "id": 30,
+        "title": "中教教育集团开展高素质农民培训助推平乐县水果产业发展",
+        "coverImg": "/resource/2f93e05438f76a2870e50b8da2468b51/img/1650534911725/c72c4decbda72310b80100e9e864aebc.jpg",
+        "content": "",
+        "reading": 686,
+        "createTime": "2020-09-03 14:47"
+      },
+      {
+        "id": 28,
+        "title": "幼儿情绪情感发展特点及情绪问题应对策略",
+        "coverImg": "/resource/3c7aed92a71e3bade3515963aa96ecde/img/1650534899697/70bffda461f1ab9e8a0df471192bc73d.jpg",
+        "content": "",
+        "reading": 387,
+        "createTime": "2020-09-03 14:45"
+      },
+      {
+        "id": 27,
+        "title": "疫情中的斯坦福大学，如何在10天内转变为“全面在线教育”？",
+        "coverImg": "/resource/af9d8fd8b5b9f99c0b82f2800013f51a/img/1650534890961/79e34aa1ced0705c3018d16dddfef6ed.jpg",
+        "content": "",
+        "reading": 222,
+        "createTime": "2020-09-03 14:43"
+      }
+    ]
+  }
+}

@@ -1,4 +1,13 @@
 <script setup>
+import { ref, onMounted } from 'vue';
+
+const newsList = ref([]);
+
+onMounted(async () => {
+  const res = await fetch('/assets/data/api.json');
+  const json = await res.json();
+  newsList.value = json.data.newses || [];
+});
 </script>
 
 <template>
@@ -6,14 +15,12 @@
     <p class="title">新闻动态</p>
     <div class="news">
       <div class="news__left">
-        <div class="news__left__item" v-for="i in 4" :key="i">
+        <div class="news__left__item" v-for="item in newsList.slice(0,4)" :key="item.id">
           <div class="news__left__item__title">
-            <p>新闻标题 {{ i }}</p>
+            <p>{{ item.title }}</p>
           </div>
           <div class="news__left__item__info">
-            <span>近日，教育部发布《教育部现行有效规章目录》的公告，教育部整理了47项规章的原文
-链接，点击规章名称即可查看。一起来看具体目录吧↓√√
-</span>
+            <span>{{ item.createTime }}</span>
           </div>
         </div>
       </div>
@@ -21,16 +28,9 @@
       <div class="news__right">
         <n-carousel autoplay show-arrow>
           <img
-              src="/assets/images/img.jpg"
-              alt="新闻图片">
-          <img
-              src="/assets/images/img.jpg"
-              alt="新闻图片">
-          <img
-              src="/assets/images/img.jpg"
-              alt="新闻图片">
-          <img
-              src="/assets/images/img.jpg"
+              v-for="item in newsList.slice(0,4)"
+              :key="item.id"
+              :src="item.coverImg.startsWith('http') ? item.coverImg : 'https://www.tukedu.com' + item.coverImg"
               alt="新闻图片">
         </n-carousel>
       </div>
@@ -62,12 +62,37 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 16px;
 
     &__item {
-      height: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 18px 20px 14px 20px;
+      border-radius: 8px;
       background-color: #f5f5f5;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      cursor: pointer;
+      transition: background 0.2s, box-shadow 0.2s;
+      min-height: 70px;
+      position: relative;
+      overflow: hidden;
       &:hover{
-        background-color: #ffffff;
+        background-color: #fff;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      }
+      .news__left__item__title {
+        font-size: 17px;
+        font-weight: 600;
+        color: #222;
+        margin-bottom: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .news__left__item__info {
+        font-size: 13px;
+        color: #888;
       }
     }
   }

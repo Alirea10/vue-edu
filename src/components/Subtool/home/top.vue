@@ -1,6 +1,34 @@
 <script setup lang="ts">
-
+import { ref, onMounted } from "vue";
 import TopList from "@/components/Subtool/home/top/topList.vue";
+
+const hotRank = ref([]);
+const newRank = ref([]);
+const starRank = ref([]);
+
+onMounted(async () => {
+  const res = await fetch("/assets/data/api.json");
+  const json = await res.json();
+  // 取前5项并格式化为TopList需要的结构
+  hotRank.value = (json.data.hotCourses || []).slice(0, 5).map(item => ({
+    image: item.coverImg.startsWith('http') ? item.coverImg : 'https://www.tukedu.com' + item.coverImg,
+    title: item.title,
+    description: item.lecturer,
+    price: item.price
+  }));
+  newRank.value = (json.data.newCourses || []).slice(0, 5).map(item => ({
+    image: item.coverImg.startsWith('http') ? item.coverImg : 'https://www.tukedu.com' + item.coverImg,
+    title: item.title,
+    description: item.lecturer,
+    price: item.price
+  }));
+  starRank.value = (json.data.starCourses || []).slice(0, 5).map(item => ({
+    image: item.coverImg.startsWith('http') ? item.coverImg : 'https://www.tukedu.com' + item.coverImg,
+    title: item.title,
+    description: item.lecturer,
+    price: item.price
+  }));
+});
 </script>
 
 <template>
@@ -9,9 +37,18 @@ import TopList from "@/components/Subtool/home/top/topList.vue";
       <span class="header__title">排行榜</span>
     </div>
     <div class="top__list">
-      <TopList title="热门排行"></TopList>
-      <TopList title="新课排行"></TopList>
-      <TopList title="五星排行"></TopList>
+      <TopList title="热门排行"
+        v-if="hotRank.length"
+        :t1="hotRank[0]" :t2="hotRank[1]" :t3="hotRank[2]" :t4="hotRank[3]" :t5="hotRank[4]"
+      />
+      <TopList title="新课排行"
+        v-if="newRank.length"
+        :t1="newRank[0]" :t2="newRank[1]" :t3="newRank[2]" :t4="newRank[3]" :t5="newRank[4]"
+      />
+      <TopList title="五星排行"
+        v-if="starRank.length"
+        :t1="starRank[0]" :t2="starRank[1]" :t3="starRank[2]" :t4="starRank[3]" :t5="starRank[4]"
+      />
     </div>
   </n-flex>
 </template>

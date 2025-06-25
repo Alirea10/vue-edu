@@ -153,6 +153,13 @@ const handleMouseLeave = () => {
     font-size: 16px;
     color: #666;
     line-height: 1.5;
+    /* 超过两行显示省略号 */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
   }
 
   &__actions {
