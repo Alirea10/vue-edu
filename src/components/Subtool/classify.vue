@@ -1,8 +1,8 @@
 <template>
-  debug:
-  {{ school1 }}
-  {{ school2 }}
-  {{ school3 }}
+<!--  debug:-->
+<!--  {{ school1 }}-->
+<!--  {{ school2 }}-->
+<!--  {{ school3 }}-->
   <div class="filter">
     <!-- 1 -->
     <div class="filter__section">
