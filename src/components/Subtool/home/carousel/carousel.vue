@@ -1,7 +1,19 @@
 <script setup>
-
 import downCard from "@/components/Subtool/home/carousel/downCard.vue";
 import LeftCard from "@/components/Subtool/home/carousel/leftCard.vue";
+import {onMounted} from "vue";
+
+onMounted(async () => {
+  // 发送请求获取API数据
+  fetch('https://www.tukedu.com/api/indexs')
+      .then(res => res.json())
+      .then(json => {
+        colleges.value = json.data.colleges || [];
+      })
+      .catch(err => {
+        console.error('API请求失败', err);
+      });
+})
 </script>
 
 <template>
